@@ -61,7 +61,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 View v = getLayoutInflater().inflate(R.layout.info_window_layout, null);
 
                 TextView posto = (TextView) v.findViewById(R.id.posto);
-                TextView precos = (TextView) v.findViewById(R.id.gasolina);
+                TextView precos = (TextView) v.findViewById(R.id.precos);
 
                 posto.setText(marker.getTitle());
                 precos.setText(marker.getSnippet());
@@ -142,9 +142,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     .icon(BitmapDescriptorFactory.fromResource(R.mipmap.gas))
                     .anchor(0.0f, 1.0f)
                     .title(p.getNome())
-                    .snippet("Gasolina      R$ "+p.getGas()+
-                              "\nAlcool     R$ "+p.getAlc()+
-                              "\nDiesel     R$ "+p.getDie())
+                    .snippet("\nGasolina      R$ "+p.getGas()+
+                              "\nAlcool          R$ "+p.getAlc()+
+                              "\nDiesel          R$ "+p.getDie())
                     .position(new LatLng(Double.valueOf(p.getLat()), Double.valueOf(p.getLng()))));
         }
     }

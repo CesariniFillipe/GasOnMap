@@ -7,7 +7,7 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:colorBackground">@color/background_material_dark</item>
-        <item name="android:colorForeground">@color/common_plus_signin_btn_text_dark_default</item>
+        <item name="android:colorForeground">@color/background_material_dark</item>
         <item name="android:windowBackground">@color/colorBackground</item>
     </style>
 
