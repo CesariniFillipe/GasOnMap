@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5f6ef297-1b53-4952-9d27-ef8d8641caf4" name="Bcc" url="http://www2.bcc.unifal-mg.edu.br/~a14034">
+        <fileTransfer host="www2.bcc.unifal-mg.edu.br" port="50002" rootFolder="/home/a14034/public_html" accessType="SFTP" password="dfcedf99dfd8dfcddf9cdf9adfc8df98df98" username="a14034">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="50002" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
