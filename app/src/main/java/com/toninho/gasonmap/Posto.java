@@ -1,10 +1,5 @@
 package com.toninho.gasonmap;
 
-import com.google.android.gms.maps.model.LatLng;
-
-/**
- * Created by Willian Soares on 13/06/2016.
- */
 public class Posto {
     public static final String ID = "_id";
     public static final String NOME = "nome";
@@ -18,13 +13,32 @@ public class Posto {
     private String lat, lng, gas, alc, die, nome;
     private String id;
 
-    public Posto(String id, String lat, String lng, String nome, String gas, String alc, String die ) {
+
+    public void setLat(String lat) {
         this.lat = lat;
+    }
+
+    public void setLng(String lng) {
         this.lng = lng;
+    }
+
+    public void setGas(String gas) {
         this.gas = gas;
+    }
+
+    public void setAlc(String alc) {
         this.alc = alc;
+    }
+
+    public void setDie(String die) {
         this.die = die;
+    }
+
+    public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public void setId(String id) {
         this.id = id;
     }
 
